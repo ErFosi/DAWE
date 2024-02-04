@@ -1,0 +1,107 @@
+
+nav li {
+    float: left;
+  }
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+nav .inicio a {
+    background-color: green;
+  }
+
+nav li.right {
+    float: right;
+  }
+main {
+    margin: auto;
+    width: 80%;
+    background-color: white;
+    padding: 10px;
+    border: 4px solid black;
+}
+
+ h1, h2, h3 {
+    font-family: 'Arial', sans-serif; /* Cambia la fuente a una de tu gusto */
+    color:blue;
+    padding: 10px;
+}
+ h1 {
+    background-color: rgb(87, 80, 80); /* Color de fondo para el h1 */
+    border-radius: 10px; /* Bordes redondeados */
+    padding: 10px;
+    color: white; /* Color del texto para el h1 */
+}
+ h3 {
+    color:aqua;
+    text-decoration: underline; /* Subrayado para el h3 */
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: gray;
+    color: black;
+    text-align: center;
+  }
+  body {
+    background-image: url("https://cdn.blerp.com/thumbnails/fb957760-dbdf-11ed-9a02-81039bb7ff0c");
+    background-repeat: repeat;
+
+  }
+div{
+    background-color: gray;
+    border-radius:8px;
+    border: 4px solid black
+}
+nav{
+    margin:auto;
+    width: 80%;
+}
+header{
+    margin:auto;
+    width: 80%;
+    padding: 10px;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    color:white;
+    border-radius: 5px;
+    text-align: center;
+    
+}
+
+.news-section {
+    background-color: beige;
+    border-radius: 8px; /* Bordes redondeados */
+    padding: 20px; /* Espaciado interno */
+    margin: 20px 0; /* Espaciado externo arriba y abajo */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Sombra ligera */
+  }
+  
+
+  .news-article {
+    border-bottom: 1px solid #eaeaea; /* Linea separadora */
+    padding-bottom: 15px; /* Espaciado al final de cada artículo */
+    margin-bottom: 15px; /* Espaciado entre artículos */
+  }
+  .news-title {
+    color: #333; /* Color del título */
+    font-size: 1.5em; /* Tamaño del título */
+  }
+
+  .news-content {
+    color: #333; /* Color del contenido */
+    line-height: 1.6; /* Altura de línea para el contenido */
+  }
